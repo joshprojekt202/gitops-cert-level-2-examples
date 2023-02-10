@@ -11,8 +11,3 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8080
-  ignoreDifferences:
-  - group: apps
-    kind: Deployment
-    jsonPointers:
-    - /spec/replicas
